@@ -17,6 +17,7 @@ import Sponsor from './pages/sponsor/index.jsx'
 // import CompleteProfileAccess from './components/hoc/CompleteProfileAccess'
 import Teams from './pages/Teams/index.jsx'
 // import EventRegister from './pages/EventRegister/index.jsx'
+import TeamRegistration from './pages/Teams/TeamRegsitration.js'
 import HomeNav from './components/header/homeNav'
 import Header from './components/header'
 import Events from './pages/Events/index.jsx'
@@ -92,6 +93,15 @@ function RouteComponent({ open, setOpen, handleOpen, handleClose, inProp, setInP
               </AuthProtectedRoute>
             }
           /> */}
+          <Route
+            path="/eventregister"
+            element={
+              <>
+                <Header />
+                <TeamRegistration />
+              </>
+            }
+          />
           <Route
             path="/partners"
             element={

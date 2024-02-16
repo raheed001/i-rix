@@ -172,19 +172,19 @@ function Home({ open, setOpen, handleOpen, handleClose, inProp, setInProp }) {
                     order={{ lg: 4, xs: 3 }}
                     className={classes.News}
                   >
+                    <Link to="/eventregister" className='menulink'>
                     <div
                       className="menulink"
                       style={{ cursor: 'pointer' }}
-                      onClick={() => {
-                        handleOpen()
-                        setInProp(true)
-                      }}
+                      
                     >
-                      News
+                      Team Registeration
                       <div>
                         <img className="test4" src={line2} alt="line" />
                       </div>
                     </div>
+                    </Link>
+                    
                   </Grid>
                   {/* <Grid
                     item
@@ -282,7 +282,7 @@ function Home({ open, setOpen, handleOpen, handleClose, inProp, setInProp }) {
                       height={100}
                       width={100}
                       style={{ margin: '0 1.5rem' }}
-                      alt="UEM"
+                      alt="IRIX"
                     />
                   ))}
                 </div>

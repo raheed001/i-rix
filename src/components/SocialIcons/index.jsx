@@ -16,47 +16,47 @@ function SocialIcons() {
         xs={12}
         lg={1}
       >
-        <Grid item>
+        {/* <Grid item>
           <a
-            href="https://m.facebook.com/ureckon.uemk/?refid=52&__tn__=C-R"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
             <div className="facebook" />
           </a>
-        </Grid>
+        </Grid> */}
         <Grid item sx={{ my: 1 }}>
           <a
-            href="https://www.instagram.com/ureckon.uemk/"
+            href="https://www.instagram.com/irix_dcs/"
             target="_blank"
             rel="noreferrer"
           >
             <div className="instagram" />
           </a>
         </Grid>
-        <Grid item>
+        {/* <Grid item>
           <a
-            href="https://www.linkedin.com/company/ureckon/"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
             <div className="linkedin" />
           </a>
-        </Grid>
-        <Grid item sx={{ my: 1 }}>
-          <a href="https://twitter.com/Ureckon_Uemk" target="_blank" rel="noreferrer">
+        </Grid> */}
+        {/* <Grid item sx={{ my: 1 }}>
+          <a href="k" target="_blank" rel="noreferrer">
             <div className="twitter" />
           </a>
-        </Grid>
-        <Grid item>
+        </Grid> */}
+        {/* <Grid item>
           <a
-            href="https://www.youtube.com/c/UreckonUEMKolkata"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
             <div className="youtube" />
           </a>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   )

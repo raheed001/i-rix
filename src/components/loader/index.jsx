@@ -1,5 +1,5 @@
-import LoaderImg from '../../assets/loader_fast.gif'
-import LoaderVid from '../../assets/ureckon_loader.mp4'
+import LoaderImg from '../../assets/IRIXGGIFF.gif'
+import LoaderVid from '../../assets/IRIXWEB.mp4'
 
 const Loader = () => {
   return (
